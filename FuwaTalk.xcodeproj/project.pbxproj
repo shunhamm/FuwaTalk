@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37C7E67B2B09860000214CC9 /* FuwaTalkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C7E67A2B09860000214CC9 /* FuwaTalkApp.swift */; };
+		37C7E67F2B09860000214CC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37C7E67E2B09860000214CC9 /* Assets.xcassets */; };
+		37C7E6822B09860000214CC9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37C7E6812B09860000214CC9 /* Preview Assets.xcassets */; };
+		37C7E6872B09860000214CC9 /* FuwaTalk.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 37C7E6852B09860000214CC9 /* FuwaTalk.xcdatamodeld */; };
+		37C7E6922B09860000214CC9 /* FuwaTalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C7E6912B09860000214CC9 /* FuwaTalkTests.swift */; };
+		37C7E69C2B09860000214CC9 /* FuwaTalkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C7E69B2B09860000214CC9 /* FuwaTalkUITests.swift */; };
+		37C7E69E2B09860000214CC9 /* FuwaTalkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C7E69D2B09860000214CC9 /* FuwaTalkUITestsLaunchTests.swift */; };
+		37C7E6C72B09900D00214CC9 /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C7E6C62B09900D00214CC9 /* ChatViewModel.swift */; };
+		37C7E6CC2B09902400214CC9 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C7E6C92B09902400214CC9 /* ChatView.swift */; };
+		37C7E6CD2B09902400214CC9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C7E6CA2B09902400214CC9 /* ContentView.swift */; };
+		37C7E6CE2B09902400214CC9 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C7E6CB2B09902400214CC9 /* InputView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37C7E68E2B09860000214CC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37C7E66F2B0985FF00214CC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37C7E6762B09860000214CC9;
+			remoteInfo = FuwaTalk;
+		};
+		37C7E6982B09860000214CC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37C7E66F2B0985FF00214CC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37C7E6762B09860000214CC9;
+			remoteInfo = FuwaTalk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		37C7E6772B09860000214CC9 /* FuwaTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FuwaTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37C7E67A2B09860000214CC9 /* FuwaTalkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuwaTalkApp.swift; sourceTree = "<group>"; };
+		37C7E67E2B09860000214CC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37C7E6812B09860000214CC9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		37C7E6862B09860000214CC9 /* FuwaTalk.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FuwaTalk.xcdatamodel; sourceTree = "<group>"; };
+		37C7E6882B09860000214CC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37C7E68D2B09860000214CC9 /* FuwaTalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FuwaTalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37C7E6912B09860000214CC9 /* FuwaTalkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuwaTalkTests.swift; sourceTree = "<group>"; };
+		37C7E6972B09860000214CC9 /* FuwaTalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FuwaTalkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37C7E69B2B09860000214CC9 /* FuwaTalkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuwaTalkUITests.swift; sourceTree = "<group>"; };
+		37C7E69D2B09860000214CC9 /* FuwaTalkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuwaTalkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		37C7E6C62B09900D00214CC9 /* ChatViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		37C7E6C92B09902400214CC9 /* ChatView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		37C7E6CA2B09902400214CC9 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		37C7E6CB2B09902400214CC9 /* InputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37C7E6742B09860000214CC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37C7E68A2B09860000214CC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37C7E6942B09860000214CC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37C7E66E2B0985FF00214CC9 = {
+			isa = PBXGroup;
+			children = (
+				37C7E6792B09860000214CC9 /* FuwaTalk */,
+				37C7E6902B09860000214CC9 /* FuwaTalkTests */,
+				37C7E69A2B09860000214CC9 /* FuwaTalkUITests */,
+				37C7E6782B09860000214CC9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37C7E6782B09860000214CC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37C7E6772B09860000214CC9 /* FuwaTalk.app */,
+				37C7E68D2B09860000214CC9 /* FuwaTalkTests.xctest */,
+				37C7E6972B09860000214CC9 /* FuwaTalkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37C7E6792B09860000214CC9 /* FuwaTalk */ = {
+			isa = PBXGroup;
+			children = (
+				37C7E6C82B09902400214CC9 /* Views */,
+				37C7E6C52B09900D00214CC9 /* ViewModels */,
+				37C7E6882B09860000214CC9 /* Info.plist */,
+				37C7E67A2B09860000214CC9 /* FuwaTalkApp.swift */,
+				37C7E67E2B09860000214CC9 /* Assets.xcassets */,
+				37C7E6852B09860000214CC9 /* FuwaTalk.xcdatamodeld */,
+				37C7E6B22B0987B300214CC9 /* Models */,
+				37C7E6802B09860000214CC9 /* Preview Content */,
+			);
+			path = FuwaTalk;
+			sourceTree = "<group>";
+		};
+		37C7E6802B09860000214CC9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				37C7E6812B09860000214CC9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		37C7E6902B09860000214CC9 /* FuwaTalkTests */ = {
+			isa = PBXGroup;
+			children = (
+				37C7E6912B09860000214CC9 /* FuwaTalkTests.swift */,
+			);
+			path = FuwaTalkTests;
+			sourceTree = "<group>";
+		};
+		37C7E69A2B09860000214CC9 /* FuwaTalkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				37C7E69B2B09860000214CC9 /* FuwaTalkUITests.swift */,
+				37C7E69D2B09860000214CC9 /* FuwaTalkUITestsLaunchTests.swift */,
+			);
+			path = FuwaTalkUITests;
+			sourceTree = "<group>";
+		};
+		37C7E6B22B0987B300214CC9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		37C7E6C52B09900D00214CC9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				37C7E6C62B09900D00214CC9 /* ChatViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		37C7E6C82B09902400214CC9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				37C7E6C92B09902400214CC9 /* ChatView.swift */,
+				37C7E6CA2B09902400214CC9 /* ContentView.swift */,
+				37C7E6CB2B09902400214CC9 /* InputView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37C7E6762B09860000214CC9 /* FuwaTalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37C7E6A12B09860000214CC9 /* Build configuration list for PBXNativeTarget "FuwaTalk" */;
+			buildPhases = (
+				37C7E6732B09860000214CC9 /* Sources */,
+				37C7E6742B09860000214CC9 /* Frameworks */,
+				37C7E6752B09860000214CC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FuwaTalk;
+			productName = FuwaTalk;
+			productReference = 37C7E6772B09860000214CC9 /* FuwaTalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		37C7E68C2B09860000214CC9 /* FuwaTalkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37C7E6A42B09860000214CC9 /* Build configuration list for PBXNativeTarget "FuwaTalkTests" */;
+			buildPhases = (
+				37C7E6892B09860000214CC9 /* Sources */,
+				37C7E68A2B09860000214CC9 /* Frameworks */,
+				37C7E68B2B09860000214CC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37C7E68F2B09860000214CC9 /* PBXTargetDependency */,
+			);
+			name = FuwaTalkTests;
+			productName = FuwaTalkTests;
+			productReference = 37C7E68D2B09860000214CC9 /* FuwaTalkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		37C7E6962B09860000214CC9 /* FuwaTalkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37C7E6A72B09860000214CC9 /* Build configuration list for PBXNativeTarget "FuwaTalkUITests" */;
+			buildPhases = (
+				37C7E6932B09860000214CC9 /* Sources */,
+				37C7E6942B09860000214CC9 /* Frameworks */,
+				37C7E6952B09860000214CC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37C7E6992B09860000214CC9 /* PBXTargetDependency */,
+			);
+			name = FuwaTalkUITests;
+			productName = FuwaTalkUITests;
+			productReference = 37C7E6972B09860000214CC9 /* FuwaTalkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37C7E66F2B0985FF00214CC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					37C7E6762B09860000214CC9 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					37C7E68C2B09860000214CC9 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 37C7E6762B09860000214CC9;
+					};
+					37C7E6962B09860000214CC9 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 37C7E6762B09860000214CC9;
+					};
+				};
+			};
+			buildConfigurationList = 37C7E6722B0985FF00214CC9 /* Build configuration list for PBXProject "FuwaTalk" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37C7E66E2B0985FF00214CC9;
+			productRefGroup = 37C7E6782B09860000214CC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37C7E6762B09860000214CC9 /* FuwaTalk */,
+				37C7E68C2B09860000214CC9 /* FuwaTalkTests */,
+				37C7E6962B09860000214CC9 /* FuwaTalkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37C7E6752B09860000214CC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37C7E6822B09860000214CC9 /* Preview Assets.xcassets in Resources */,
+				37C7E67F2B09860000214CC9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37C7E68B2B09860000214CC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37C7E6952B09860000214CC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37C7E6732B09860000214CC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37C7E6CC2B09902400214CC9 /* ChatView.swift in Sources */,
+				37C7E6CD2B09902400214CC9 /* ContentView.swift in Sources */,
+				37C7E6872B09860000214CC9 /* FuwaTalk.xcdatamodeld in Sources */,
+				37C7E6CE2B09902400214CC9 /* InputView.swift in Sources */,
+				37C7E6C72B09900D00214CC9 /* ChatViewModel.swift in Sources */,
+				37C7E67B2B09860000214CC9 /* FuwaTalkApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37C7E6892B09860000214CC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37C7E6922B09860000214CC9 /* FuwaTalkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37C7E6932B09860000214CC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37C7E69E2B09860000214CC9 /* FuwaTalkUITestsLaunchTests.swift in Sources */,
+				37C7E69C2B09860000214CC9 /* FuwaTalkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37C7E68F2B09860000214CC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37C7E6762B09860000214CC9 /* FuwaTalk */;
+			targetProxy = 37C7E68E2B09860000214CC9 /* PBXContainerItemProxy */;
+		};
+		37C7E6992B09860000214CC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37C7E6762B09860000214CC9 /* FuwaTalk */;
+			targetProxy = 37C7E6982B09860000214CC9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		37C7E69F2B09860000214CC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		37C7E6A02B09860000214CC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37C7E6A22B09860000214CC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FuwaTalk/Preview Content\"";
+				DEVELOPMENT_TEAM = V98AJ8RXB4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shunhamm.FuwaTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37C7E6A32B09860000214CC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FuwaTalk/Preview Content\"";
+				DEVELOPMENT_TEAM = V98AJ8RXB4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shunhamm.FuwaTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		37C7E6A52B09860000214CC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V98AJ8RXB4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shunhamm.FuwaTalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FuwaTalk.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FuwaTalk";
+			};
+			name = Debug;
+		};
+		37C7E6A62B09860000214CC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V98AJ8RXB4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shunhamm.FuwaTalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FuwaTalk.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FuwaTalk";
+			};
+			name = Release;
+		};
+		37C7E6A82B09860000214CC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V98AJ8RXB4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shunhamm.FuwaTalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FuwaTalk;
+			};
+			name = Debug;
+		};
+		37C7E6A92B09860000214CC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V98AJ8RXB4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shunhamm.FuwaTalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FuwaTalk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37C7E6722B0985FF00214CC9 /* Build configuration list for PBXProject "FuwaTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37C7E69F2B09860000214CC9 /* Debug */,
+				37C7E6A02B09860000214CC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37C7E6A12B09860000214CC9 /* Build configuration list for PBXNativeTarget "FuwaTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37C7E6A22B09860000214CC9 /* Debug */,
+				37C7E6A32B09860000214CC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37C7E6A42B09860000214CC9 /* Build configuration list for PBXNativeTarget "FuwaTalkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37C7E6A52B09860000214CC9 /* Debug */,
+				37C7E6A62B09860000214CC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37C7E6A72B09860000214CC9 /* Build configuration list for PBXNativeTarget "FuwaTalkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37C7E6A82B09860000214CC9 /* Debug */,
+				37C7E6A92B09860000214CC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		37C7E6852B09860000214CC9 /* FuwaTalk.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				37C7E6862B09860000214CC9 /* FuwaTalk.xcdatamodel */,
+			);
+			currentVersion = 37C7E6862B09860000214CC9 /* FuwaTalk.xcdatamodel */;
+			path = FuwaTalk.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 37C7E66F2B0985FF00214CC9 /* Project object */;
+}
